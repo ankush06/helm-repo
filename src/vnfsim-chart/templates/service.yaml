@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "vnfsim-chart.fullname" . }}
+  labels:
+    {{- include "vnfsim-chart.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+  - name: adaptor
+    port: {{ .Values.service.port1 }}
+    nodePort: {{ .Values.service.nodePort1 }}
+    protocol: TCP
+  - name: configdbsim  
+    port: {{ .Values.service.port2 }}
+    nodePort: {{ .Values.service.nodePort2 }}
+    protocol: TCP
+
+  selector:
+    {{- include "vnfsim-chart.selectorLabels" . | nindent 4 }}
