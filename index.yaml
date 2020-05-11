@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  vnfmsim-chart:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2020-05-11T16:17:14.737773997+05:30"
+    description: A Helm chart for VNFM simulator
+    digest: 11569c7ab7b8af694b5258e95c0233f2dfdcb77e3bf5975da90f2611d0e1b741
+    name: vnfmsim-chart
+    urls:
+    - https://ankush06.github.io/helm-repo/vnfmsim-chart-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-05-11T16:17:14.73681741+05:30"
