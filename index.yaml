@@ -3,9 +3,9 @@ entries:
   vnfmsim-chart:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2020-05-20T21:23:13.991390171+05:30"
+    created: "2020-06-19T13:36:44.21796797+05:30"
     description: A Helm chart for VNFM simulator
-    digest: 11569c7ab7b8af694b5258e95c0233f2dfdcb77e3bf5975da90f2611d0e1b741
+    digest: d2f5d816a0f1e6408cd37e7dad8cc51dc126cd69683deefd71b10aa546b578f8
     name: vnfmsim-chart
     urls:
     - https://ankush06.github.io/helm-repo/vnfmsim-chart-0.0.1.tgz
@@ -13,7 +13,7 @@ entries:
   vnfmsimhelm:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2020-05-20T21:23:13.991840816+05:30"
+    created: "2020-06-19T13:36:44.221482138+05:30"
     description: VNFM simulator with helm client
     digest: 3befd23d55bdf074fbf28556270bc112785e9729d8ea0f66feda406c20df02ef
     name: vnfmsimhelm
@@ -23,11 +23,11 @@ entries:
   vnfsim-chart:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2020-05-20T21:23:14.004002418+05:30"
+    created: "2020-06-19T13:36:44.222782795+05:30"
     description: A Helm chart for VNF simulator; adaptor and the configdbsim app
     digest: 866e77dbc8e60918f5fccfd4d73409220c857f26e2f118b2d889c68b2142ae14
     name: vnfsim-chart
     urls:
     - https://ankush06.github.io/helm-repo/vnfsim-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2020-05-20T21:23:13.988589085+05:30"
+generated: "2020-06-19T13:36:44.215507572+05:30"
